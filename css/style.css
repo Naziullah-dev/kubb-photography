@@ -1,0 +1,357 @@
+/* ========common css start========== */
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+.clr{
+    clear: both;
+}
+h1,h2,h3,h4,h5,h6,p{
+    line-height: 0.8;
+}
+/* ========common css end========== */
+/* ========navbar css start========== */
+#navbar{
+    background-color: rgba(5, 5, 5, 0.438);
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    z-index:999;
+}
+.logo{
+    width:20%;
+    float:left;
+    padding-top:21px;
+}
+.menu{
+    width:80%;
+    float:left;
+}
+.menu ul{
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    padding-top:27px;
+    padding-bottom: 27px;
+}
+.menu ul li a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition:all linear .3s;
+}
+.menu ul li a:hover{
+    color:#28b8d8 ;
+
+}
+/* .menu ul li:nth-child(4) a{
+    color:#28b8d8;
+} */
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+/* ========Banner css start========== */
+#banner{
+    background: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 265px;
+    padding-bottom: 202px;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-content h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    color:#fff;
+    font-size: 50px;
+    text-transform:uppercase;
+    padding-bottom: 13px;
+}
+.banner-content h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color:#fff;
+    font-size: 40px;
+    text-transform:uppercase;
+    padding-bottom: 15px;
+}
+.banner-content p{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color:#ffffff;
+    font-size: 14px;
+}
+/* ========Banner css end========== */
+/* ========service css start========== */
+#service{
+    padding-top:63px;
+    padding-bottom:85px;
+}
+.service-header{
+    text-align:center;
+}
+.service-header h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight:300;
+    font-size:30px;
+    color:#444444;
+    padding-bottom:26px;
+}
+.service-header p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#666666;
+    font-size:14px;
+    padding-bottom:64px;
+}
+.service-body-header h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:700;
+    color:#444444;
+    font-size:18px;
+    text-align:center;
+    text-transform:uppercase;
+    padding-bottom:21px;
+}
+.service-item{
+    width:370px;
+    border: 1px solid #e3e3e3;
+    padding:15px 15px 25px 15px;
+    box-sizing: border-box;
+    float:left;
+
+}
+.service-image{
+    display:block;
+    padding-bottom: 14px;
+}
+.service-content{
+    text-align: center;
+}
+.service-content h3{
+    
+    font-family: 'Roboto Slab', serif;
+    font-weight:700;
+    font-size:17px;
+    color:#444444;
+    padding-bottom:12px;
+}
+.service-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#666666;
+    font-size:14px;
+    line-height: 22px;
+}
+.middle-service{
+    margin-left:30px ;
+    margin-right:30px ;
+
+}
+/* ========service css end========== */
+/* ========instagram css start========== */ 
+#instagram{
+    background-color: #2c2c2c;
+    padding-top: 41px;
+    padding-bottom: 40px;
+}
+.instagram-content{
+    text-align:center;
+}
+.instagram-content h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:700;
+    color:#d5d5d5;
+    font-size:18px;
+    text-transform:uppercase;
+    position:relative;
+    display:inline-block
+}
+.instagram-content h4:after{
+    content:'';
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:-115px;
+    width:100px;
+    height: 1px;
+    background-color: #535353;
+
+}
+.instagram-content h4:before{
+    content:'';
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:-115px;
+    width:100px;
+    height: 1px;
+    background-color: #535353;
+
+}
+.instagram-item{
+    width:100%; 
+}
+.instagram-img{
+    width:25%;
+    float:left;
+    padding-top: 32px;
+    /* display: block; */
+}
+.instagram-button{
+    text-align: center;
+    padding-top: 44px;
+    /* width:370px;
+    /* border: 1px solid #e3e3e3; */
+    /* padding:15px 15px 25px 15px; */
+    /* box-sizing: border-box; */ 
+
+}
+.instagram-button button{
+    border: 1px solid #797979; 
+    background-color: #2c2c2c;
+    padding: 16px 20px 16px 20px;
+}
+.instagram-button button:hover{
+    background-color: red;
+    transition:all linear .3s;
+
+}
+.instagram-button button a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#a6a6a6;
+    font-size:14px;
+    text-transform: uppercase;
+    
+}
+/* ========instagram css end========== */ 
+/* ========journal css start========== */ 
+#journal{
+    padding-top:60px;
+    /* padding-bottom:80px; */
+}
+#journal .instagram-content h4{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight:700;
+    color:#444444;
+    font-size:18px;
+    text-transform:uppercase;
+    position:relative;
+    display:inline-block
+    
+}
+#journal .instagram-content h4:after{
+    content:'';
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:-115px;
+    width:100px;
+    height: 1px;
+    background-color: #d9d9d9;
+
+}
+#journal .instagram-content h4:before{
+    content:'';
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:-115px;
+    width:100px;
+    height: 1px;
+    background-color: #d9d9d9;
+
+}
+.journal-wrapper{
+    padding-top:19px;
+}
+#journal .service-item{
+    width:370px;
+    border: 1px solid #e3e3e3;
+    padding:25px 0px 25px 0px;
+    box-sizing: border-box;
+
+}
+#journal .service-item h3{
+    font-family: 'Roboto Slab', serif;
+    font-weight:700;
+    font-size:16px;
+    color:#444444;
+    padding-bottom:15px;
+    text-align:center;
+}
+#journal .service-item p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#666666;
+    font-size:12px;
+    padding-bottom:17px;
+    text-align:center;
+}
+#journal .service-bottom-content{
+    padding:15px 33px 0px 25px;
+}
+#journal .service-bottom-content p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#666666;
+    font-size:14px;
+    line-height:22px;
+    text-align: left;
+}
+#journal .service-bottom-content a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#999;
+    font-size:11px;
+    text-transform:uppercase;
+    padding-bottom: 3px;
+    position:relative;
+}
+#journal .service-bottom-content a:after{
+    content:'';
+    position:absolute;
+    bottom:0%;
+    left:0px;
+    width:102px;
+    height: 1px;
+    background-color: #28b8d8;
+
+}
+#journal .service-bottom-content img{
+    padding-left: 181px;
+}
+/* ========journal css end========== */ 
+/* ========portfolio css start========== */ 
+#portfolio{
+    background-color: #f9f9f9;
+}
+.port-left{
+    width:570px;
+}
+.port-right{
+    width:570px;
+}
+/* ========portfolio css end========== */ 
+/* ========common css start========== */ 
+/* ========common css start========== */ 
